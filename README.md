@@ -2,7 +2,7 @@
 Webside created for company Lumo-Ventilasjon from Stavanger.
 
 ## Setup
-Clone repo or click to [link](https://lukaskmiecik.github.io/Lascaux/) to open webside
+Clone repo or click to [link](https://lukaskmiecik.github.io/Lumo-Ventilasjon/) to open webside
 
 ## Languages:
 + HTML
@@ -16,7 +16,7 @@ This files open yours web browser.<br>
 Or:
 
 ## Demo
-Click to [link](https://lukaskmiecik.github.io/Lascaux/) to open demo in webside
+Click to [link](https://lukaskmiecik.github.io/Lumo-Ventilasjon/) to open demo in webside
 
 ## Autor
 [@LukasKmiecik](https://github.com/LukasKmiecik)
