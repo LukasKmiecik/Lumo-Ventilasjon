@@ -1,0 +1,35 @@
+@mixin fR {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin fC {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin fCen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin ll {
+    border-left: 1px solid black;
+    box-shadow: black 0 0 10px 10px;
+}
+
+@mixin lr {
+    border-right: 1px solid black;
+    box-shadow: black 0 0 10px 10px;
+}
+
+
+@mixin RWD($size) {
+    this:$size = $size;
+    @media (max-width: $size){
+        @content;
+    }
+    
+}

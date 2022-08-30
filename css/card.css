@@ -1,0 +1,236 @@
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes blur {
+  100% {
+    color: red;
+  }
+}
+
+@keyframes blur {
+  100% {
+    color: red;
+  }
+}
+
+@-webkit-keyframes revolt {
+  50% {
+    -webkit-transform: rotate3d(10, 5, 7, 10deg);
+            transform: rotate3d(10, 5, 7, 10deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(10, 5, 7, -10deg);
+            transform: rotate3d(10, 5, 7, -10deg);
+  }
+}
+
+@keyframes revolt {
+  50% {
+    -webkit-transform: rotate3d(10, 5, 7, 10deg);
+            transform: rotate3d(10, 5, 7, 10deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(10, 5, 7, -10deg);
+            transform: rotate3d(10, 5, 7, -10deg);
+  }
+}
+
+@-webkit-keyframes grow {
+  100% {
+    width: 500px;
+  }
+}
+
+@keyframes grow {
+  100% {
+    width: 500px;
+  }
+}
+
+.material {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.materialCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
+  max-width: 250px;
+  background: white;
+  padding: 9px 18px;
+  width: 25%;
+  margin: 10px 10px 70px 10px;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+}
+
+.materialCards:hover {
+  -webkit-box-shadow: black 0 0 10px 0, #ebbe45 0 0 8px 0;
+          box-shadow: black 0 0 10px 0, #ebbe45 0 0 8px 0;
+  -webkit-animation: revolt 1s;
+          animation: revolt 1s;
+}
+
+.cardTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 2.5rem;
+  width: 60%;
+  margin: 10px auto;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 150%;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.cardInfo {
+  padding: 25px 0px;
+  height: 280px;
+}
+
+.cardMore,
+.cardBack,
+.cardSpec {
+  text-align: center;
+  padding: 9px 18px;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  border: 1px solid #ebbe45;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.cardMore:hover,
+.cardBack:hover,
+.cardSpec:hover {
+  font-weight: 600;
+}
+
+.cardBack {
+  display: none;
+}
+
+.cardInfoMore {
+  display: none;
+  margin: 15px 10px 20px 10px;
+}
+
+.cardImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardImg img {
+  width: 90%;
+  max-width: 200px;
+  height: 150px;
+  margin: auto;
+}
+
+.more {
+  display: none;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 70px;
+}
+
+.moreTitle {
+  text-transform: capitalize;
+  font-size: 150%;
+  margin: 0 0 20px 0px;
+}
+
+.moreRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 10% 5px 10%;
+  padding: 1% 2%;
+  -webkit-box-shadow: black 0px 2px 2px -2px;
+          box-shadow: black 0px 2px 2px -2px;
+  this: 1330px=1330px;
+}
+
+@media (max-width: 1330px) {
+  .moreRow {
+    margin: 5% 0;
+  }
+}
+
+.mt {
+  text-transform: capitalize;
+  font-weight: 600;
+  max-width: 50%;
+}
+
+.mi {
+  font-weight: 600;
+  max-width: 50%;
+}
+
+.fbe {
+  this: 1000px=1000px;
+}
+
+@media (max-width: 1000px) {
+  .fbe {
+    display: none;
+  }
+}
+/*# sourceMappingURL=card.css.map */

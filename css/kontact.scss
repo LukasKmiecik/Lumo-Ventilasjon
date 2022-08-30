@@ -1,0 +1,43 @@
+@import "./variable";
+@import "./libertyFunctons";
+
+.weTitle{
+    text-transform: capitalize;
+    font-size: 135%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.kon__form{
+    @include fR();
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.kon__form__are{
+    @include fR();
+} 
+.mes__tit{
+    text-transform: capitalize;
+    font-size: 120%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form__tex{
+    color: rgb(187, 182, 182);
+    padding: 9px 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: white;
+}
+
+.labe{
+    @include fC; 
+}
+
+.label{
+    margin: 9px 18px;
+    font-size: 85%;
+    text-transform: capitalize;
+}

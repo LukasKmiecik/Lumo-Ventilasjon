@@ -1,0 +1,60 @@
+@import "./libertyFunctons";
+@import "./variable";
+
+
+.mobile{
+    display: none;
+    width: 100%;
+    background: black;
+
+    @include RWD(380px){
+        @include fC;
+        justify-content: end;
+    }
+}
+
+.openMenu{
+    @include fR;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.comN{
+    display: flex;
+    align-items: stretch;
+    text-transform: capitalize;
+    font-size: 125%;
+    color: whitesmoke;
+}
+
+.mobMu{
+    @include fC;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+
+    a{
+        margin: 5px;
+        color: whitesmoke;
+
+        &:hover{
+            color: $primaColor;
+        }
+    }
+    @include fC;
+    display: none;
+}
+
+.bx-x{
+    display: none;
+}
+
+.mmb{
+    text-transform: capitalize;
+}
+
+
+
+
+
+////////////////////////////////
