@@ -9,6 +9,7 @@ Clone repo or click to [link](https://lukaskmiecik.github.io/Lumo-Ventilasjon/) 
 + Css
 + Scss
 + JavaScript
++ PHP
 
 ## Usage 
 After you clone this repo to your desktop, go to its root directory and run `index.html`.
